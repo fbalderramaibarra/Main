@@ -9,9 +9,12 @@ public class Time {
 		int second = 52;
 		double secondsSinceMidnight = hour * 3600.0;
 		double secondsRemainingDay = (24.0 - hour) * 3600.0;
-		double percentageofDaypassed = hour / 24.0;
+		double percentageofDaypassed = hour / 24.0 * 100.0;
+		System.out.print("Seconds since midnight: ");
 		System.out.println(secondsSinceMidnight);
+		System.out.print("Seconds remaining in the day: ");
 		System.out.println(secondsRemainingDay);
+		System.out.print("Percentage of day passed: ");
 		System.out.println(percentageofDaypassed);
 	}
 
