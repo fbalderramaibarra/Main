@@ -3,7 +3,6 @@ package date;
 public class Time {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		double hour = 17.0;
 		int minute = 37;
 		int second = 52;
